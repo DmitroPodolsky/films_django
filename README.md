@@ -16,7 +16,7 @@ ___
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Olderestin/django_task1.git
+   git clone https://github.com/DmitroPodolsky/films_django.git
    ```
 
 2. Navigate to the project directory:
