@@ -90,11 +90,6 @@ ___
    docker compose up --build
    ```
 
-2. Perform database migrations:
-   ```bash
-    docker exec -it django python manage.py migrate
-    ```
-
 
 
 ___
@@ -115,6 +110,22 @@ ___
    docker exec -it django python manage.py createsuperuser
    ```
 
+## Generate mock data:
+
+1. For pip method:
+   ```bash
+   python manage.py mock_data
+   ```
+
+2. For Poetry method:
+   ```bash
+   poetry run python manage.py mock_data
+   ```
+
+3. For Docker method:
+   ```bash
+   docker exec -it django python manage.py mock_data
+   ```
 ___
 ## Note:
 
