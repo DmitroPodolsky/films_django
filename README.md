@@ -3,6 +3,11 @@
 ## Description
 
 This project is a test assignment that involves the implementation  models with Many-to-Many and ForeignKey relationship. The project provides API endpoints for CRUD operations on these models.
+
+deployed project(https://janr-films-bdb923a06082.herokuapp.com/api/swagger/)
+for superuser:
+password: 1
+username: admin
 ___
 
 ## Prerequisites
