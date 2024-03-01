@@ -26,7 +26,7 @@ ___
 
 2. Navigate to the project directory:
    ```bash
-   cd django_task1
+   cd films_django
    ```
 
 3. Create a .env file based on the provided example (<font color='red'>**don't forget to fill it**</font>):
@@ -125,6 +125,23 @@ ___
 3. For Docker method:
    ```bash
    docker exec -it django python manage.py mock_data
+   ```
+
+## Test Api's:
+
+1. For pip method:
+   ```bash
+   pytest
+   ```
+
+2. For Poetry method:
+   ```bash
+   poetry run pytest
+   ```
+
+3. For Docker method:
+   ```bash
+   docker exec -it django pytest
    ```
 ___
 ## Note:
